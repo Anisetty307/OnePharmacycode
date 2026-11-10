@@ -169,6 +169,7 @@ await viewbutton.click();
       await expect(page.getByRole('progressbar')).toBeHidden({ timeout: 60_000 });
     }
 
+
     console.log(`Supplier completed: ${supplier}`);
   }
 });
